@@ -1,0 +1,35 @@
+h1 {
+   font-family:Georgia, 'Times New Roman', Times, serif ; 
+   font-size: 24pt;
+   font-weight: bold;
+   text-align: center;
+   text-shadow: 3px 3px #999999;
+}
+
+body {
+    height: 100%;
+    margin: 0%;
+    background-image: url('images/background.png');
+}
+
+.sve {
+    width: 55%;
+    height: 1550px;
+    margin: auto;
+    display: flex;
+    box-shadow: 5px 5px 5px #eeeeee;
+}
+
+.ocena{
+    text-align: center;
+    font-size: 48pt;
+    color: red;
+    padding-left: 95px;
+    padding-top: 5px;
+}
+
+.kritika{
+    font-size: 13pt;
+    padding: 1em;
+    
+}
