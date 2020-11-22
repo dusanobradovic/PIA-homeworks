@@ -21,15 +21,66 @@ body {
 }
 
 .ocena{
-    text-align: center;
-    font-size: 48pt;
-    color: red;
-    padding-left: 95px;
-    padding-top: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    top:20%;
 }
 
 .kritika{
-    font-size: 13pt;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #CCCCCC;
+    border-width: 2px;
+    width: 90%;
     padding: 1em;
+    align-self: center;
     
+}
+
+.kritika > q {
+    font-size: 13px;
+    font-family: Georgia;
+    margin-left: 5px;
+}
+
+.kriticar{
+    margin-top: 5px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.kriticar > img {
+    float: left;
+    margin-right: 5px;
+}
+
+.slika{
+	
+}
+
+
+.glavni_sadrzaj{
+    float: left;
+    width: 75%;
+}
+
+.naslov{
+    background-image: url('images/rbg.png');
+    color: red;
+    display: flex;
+    position: relative;
+}
+
+.kritika_box{
+    background-color: #EEEEEE;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slika_filma{
+    width: 100%;
+    height: 320px;
 }
