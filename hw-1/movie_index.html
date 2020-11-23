@@ -11,6 +11,7 @@
   <meta name="description" content="HTML/CSS homework assignment." />
   <meta name="keywords" content="pia, web programming, html, css" />
   <link rel="stylesheet" href="movie.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -20,13 +21,14 @@
     <div class="glavni_sadrzaj">
       <div class="naslov">
         <img class="slika" src="images/freshbig.png" alt="Rotten" />
-        <div class="ocena">92%</div>
+        <div class="procenat">
+          <div class="ocena">92%</div>
+        </div>
       </div>
       <div class="kritika_box">
         <p class="kritika">
           <img src="images/rotten.gif" alt="Rotten" />
-          <q>BThe uses of enchantment haven't changed; kids still need, maybe more than ever,
-            the special comfort of fabulous threats they can control.</q>
+          <q>The complexities of the script, while clever, will likely fly over the heads of most within its target demographic.</q>
         </p>
         <p class="kriticar">
           <img src="images/critic.gif" alt="Critic" />
@@ -46,8 +48,7 @@
 
         <p class="kritika">
           <img src="images/rotten.gif" alt="Rotten" />
-          <q>It's a terrific piece of work: smart, 
-              inventive and executed with state-of-the-art finesse.</q>
+          <q>I don't mind flights of fancy in a film, but I do like a consistent tone. This film fails to deliver one.</q>
         </p>
         <p class="kriticar">
           <img src="images/critic.gif" alt="Critic" />
@@ -78,7 +79,7 @@
 
         <p class="kritika">
           <img src="images/rotten.gif" alt="Rotten" />
-          <q>I really couldn't see what all the fuss was about.</q>
+          <q>The plot premises of Monsters, Inc. strike me as downright peculiar for a supposed children's entertainment.</q>
         </p>
         <p class="kriticar">
           <img src="images/critic.gif" alt="Critic" />
@@ -110,7 +111,7 @@
         </p>
 
         <p class="kritika">
-          <img src="images/rotten.gif" alt="Rotten" />
+          <img src="images/fresh.gif" alt="Rotten" />
           <q>One of the best of the Pixar line up! Monster's Inc is funny,
             smart, charming and a great film to pop in every once in a while!</q>
         </p>
@@ -123,74 +124,76 @@
 
         <p class="kritika">
           <img src="images/rotten.gif" alt="Rotten" />
-          <q>Basically just a great kind of a world simulator only filled 
-            by friendly monsters scaring us to get to the box office.</q>
+          <q>Even with all the good cheer on display, this represents the first instance in which Pixar's ability to produce a thoroughly magical experience hits a brick wall.</q>
         </p>
         <p class="kriticar">
           <img src="images/critic.gif" alt="Critic" />
           Dusan Obradovic <br />
           <span class="publication">unemployed</span>
         </p>
-    </div> 
+      </div> 
+    </div>
+
+    <!-- sekcija sa informacijama: desna kolona. -->
+    <div class="informacije">
+      <img class="slika_filma" src="images/monsters.jpg" alt="general overview" />
+      <dl>
+        <dt>STARRING</dt>
+        <dd>
+          John Goodman <br />
+          Billy Crystal <br />
+          Mary Gibbs <br />
+          Steve Buscemi
+        </dd>
+
+        <dt>DIRECTORS</dt>
+        <dd>Pete Docter, David Silverman (co-director)</dd>
+
+        <dt>RATING</dt>
+        <dd>G</dd>
+
+        <dt>THEATRICAL RELEASE</dt>
+        <dd>2.11.2001.</dd>
+
+        <dt>MOVIE SYNOPSIS</dt>
+        <dd>
+            In order to power the city, monsters have to scare children so that they scream. 
+            However, the children are toxic to the monsters, and after a child gets through,
+            2 monsters realize things may not be what they think..
+        </dd>
+
+        <dt>MPAA RATING</dt>
+        <dd>G, for animated action violence, some scary cartoon images</dd>
+
+        <dt>STUDIO</dt>
+        <dd>Buena Vista</dd>
+
+        <dt>RUNTIME</dt>
+        <dd>92 mins</dd>
+
+        <dt>GENRE</dt>
+        <dd>
+            Animation, Adventure, Comedy
+        </dd>
+
+        <dt>BOX OFFICE</dt>
+        <dd>$115,000,000</dd>
+
+        <dt>LINKS</dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="https://www.imdb.com/title/tt0198781/">IMDB</a>
+            </li>
+            <li>
+              <a href="https://www.rottentomatoes.com/m/monsters_inc">RT Review</a>
+            </li>
+            <li><a href="http://www.rottentomatoes.com/">RT Home</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </div>
   </div>
-
-  <!-- sekcija sa informacijama: desna kolona. -->
-  <img class="slika_filma" src="images/monsters.jpg" alt="general overview" />
-  <dl>
-    <dt>STARRING</dt>
-    <dd>
-      John Goodman <br />
-      Billy Crystal <br />
-      Mary Gibbs <br />
-      Steve Buscemi
-    </dd>
-
-    <dt>DIRECTORS</dt>
-    <dd>Pete Docter, David Silverman (co-director)</dd>
-
-    <dt>RATING</dt>
-    <dd>G</dd>
-
-    <dt>THEATRICAL RELEASE</dt>
-    <dd>2.11.2001.</dd>
-
-    <dt>MOVIE SYNOPSIS</dt>
-    <dd>
-        In order to power the city, monsters have to scare children so that they scream. 
-        However, the children are toxic to the monsters, and after a child gets through,
-        2 monsters realize things may not be what they think..
-    </dd>
-
-    <dt>MPAA RATING</dt>
-    <dd>G, for animated action violence, some scary cartoon images</dd>
-
-    <dt>STUDIO</dt>
-    <dd>Buena Vista</dd>
-
-    <dt>RUNTIME</dt>
-    <dd>92 mins</dd>
-
-    <dt>GENRE</dt>
-    <dd>
-        Animation, Adventure, Comedy
-    </dd>
-
-    <dt>BOX OFFICE</dt>
-    <dd>$115,000,000</dd>
-
-    <dt>LINKS</dt>
-    <dd>
-      <ul>
-        <li>
-          <a href="https://www.imdb.com/title/tt0198781/">IMDB</a>
-        </li>
-        <li>
-          <a href="https://www.rottentomatoes.com/m/monsters_inc">RT Review</a>
-        </li>
-        <li><a href="http://www.rottentomatoes.com/">RT Home</a></li>
-      </ul>
-    </dd>
-  </dl>
 
   <footer>(1-10) of 88</footer>
 
